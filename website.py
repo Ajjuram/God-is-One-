@@ -56,7 +56,7 @@ with st.container():
         st.header("What I do")
         st.write("##") # To give space between two lines
         st.write("""
-        The main purpose of this YouTube channel is to propagate Religion, Devotion and The knowledge related to God (Generator Operator and Destroyer).
+        The main purpose of this YouTube channel is to propagate Righteousness, Devotion and The knowledge related to God (Generator Operator and Destroyer).
         \n In this Youtube Channel you will find Devotional song's, Chanting Mantras, Motivational, Whatsapp status, Religious T.V. Serials like Shri Krishna, Mahabharata, Ramayana videos, so stay with us.
 
         \n If you like our videos then please Like, Share our videos and Subscribe to the Channel.
