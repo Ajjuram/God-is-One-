@@ -57,7 +57,7 @@ with st.container():
         st.write("##") # To give space between two lines
         st.write("""
         Hello, I am a follower of the path of God and i created a YouTube channel to promote Righteousness, Devotion and The knowledge related to God (Generator Operator and Destroyer).
-        \n In this Youtube Channel you will find Devotional song's, Chanting Mantras, Motivational, Whatsapp status, Religious T.V. Serials like Shri Krishna, Mahabharata, Ramayana videos, so stay with us.
+        \n In this Youtube Channel you will find Devotional song's, Chanting Mantras, Motivational and Whatsapp status, Religious T.V. Serials like Shri Krishna, Mahabharata, Ramayana videos, so stay with us.
 
         \n If you like our videos then please Like, Share our videos and Subscribe to the Channel.
         """)
