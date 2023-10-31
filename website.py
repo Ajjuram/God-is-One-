@@ -6,7 +6,7 @@ Hanuman_ji =Image.open("hanuman ji.jpg")
 Arjun_ji= Image.open("Arjun.jpg")
 bhagvan_shiv=Image.open("bhagvan_shiv.jpg")
 shivji_new=Image.open("shivji_new.jpg")
-main_image= Image.open("20201231_142837.png")
+main_image= Image.open("God is One photo.png")
 
 
 # Use local CSS
