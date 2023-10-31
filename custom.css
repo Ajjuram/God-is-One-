@@ -1,0 +1,9 @@
+/* Change header color */
+.stApp h1 {
+    color: #FF5733; /* Change this to your desired color   #orange */
+}
+
+/* Change subheader color */
+.stApp h2 {
+    color: #3E4095; /* Change this to your desired color   #blue */
+}
