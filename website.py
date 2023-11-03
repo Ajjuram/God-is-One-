@@ -1,7 +1,6 @@
 import streamlit as st
 from PIL import Image
 
-st.set_page_config(page_title="Aum Namah Shivay",page_icon=":tada:",layout="wide")
 lord_shiva=Image.open("lord_shiva.jpg")
 st.set_page_config(page_title="Aum Namah Shivay",page_icon=":tada:",layout="wide") #  :tada: = emoji code
 st.write(
