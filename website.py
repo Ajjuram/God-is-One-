@@ -1,13 +1,21 @@
 import streamlit as st
 from PIL import Image
-st.set_page_config(page_title="Aum Namah Shivay",page_icon=":tada:",layout="wide")
 
+st.set_page_config(page_title="Aum Namah Shivay",page_icon=":tada:",layout="wide")
+lord_shiva=Image.open("lord_shiva.jpg")
+st.set_page_config(page_title="Aum Namah Shivay",page_icon=":tada:",layout="wide") #  :tada: = emoji code
+st.write(
+    """<div style="text-align: center; margin-top: 10px;">
+        <h3>ॐ नमः शिवाय</h3>
+    </div>""",
+    unsafe_allow_html=True
+)
 Hanuman_ji =Image.open("hanuman ji.jpg")
 Arjun_ji= Image.open("Arjun.jpg")
 bhagvan_shiv=Image.open("bhagvan_shiv.jpg")
 shivji_new=Image.open("shivji_new.jpg")
 main_image= Image.open("God is One photo.png")
-
+like_share=Image.open("Like_share_subscribe.png")
 
 # Use local CSS
 def local_css(file_name):
@@ -32,7 +40,7 @@ with st.container():
         # st.markdown(css, unsafe_allow_html=True)
         st.title("God is One and Supreme Truth")
         st.write("@GodisOneandSupremeTruth")
-        st.subheader("'ॐ नमः शिवाय'")
+        # st.subheader("'ॐ नमः शिवाय'")
         st.header("Hi, I am Ajay :wave:")
         st.subheader("The Owner of this Youtube Channel")
         st.markdown(
@@ -123,8 +131,10 @@ with st.container():
     </form>
     """ # Html code
 
-    left_column, right_column = st.columns(2)
+    left_column, right_column, third_column = st.columns((1.5,0.5,1))# ,gap="small"
     with left_column:
         st.markdown(contact_form, unsafe_allow_html=True)
     with right_column:
         st.empty()
+    with third_column:
+        st.image(like_share.resize((400, 280)))
