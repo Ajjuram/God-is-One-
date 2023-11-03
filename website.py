@@ -9,6 +9,7 @@ st.write(
     </div>""",
     unsafe_allow_html=True
 )
+st.image(lord_shiva.resize((1600,800)))
 Hanuman_ji =Image.open("hanuman ji.jpg")
 Arjun_ji= Image.open("Arjun.jpg")
 bhagvan_shiv=Image.open("bhagvan_shiv.jpg")
